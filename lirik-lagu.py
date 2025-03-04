@@ -1,12 +1,29 @@
-- 👋 Hi, I’m @divzz0011
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+import sys
+import time
 
-<!---
-divzz0011/divzz0011 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+
+def jalanin_lirik():
+    lirik = [
+        ("Dengar Laraku", 0.1),
+        ("Suara hati ini memanggil namamu", 0.09),
+        ("Karena separuh aku", 0.09),
+        ("Menyentuh laramu", 0.09),
+        ("Semua lukamu t'lah menjadi lirihku", 0.09),
+        ("Kar'na separuh aku", 0.09),
+        ("Dirimu", 0.09),
+        ("-----", 0.1)
+    ]
+
+    delay = [0.3, 0.2, 0.3, 0.4, 0.6, 0.3, 0.3, 0.8]
+    print("\n== Separuh Aku - Noah ==")
+    for i, (baris_lagu, delay_karakter) in enumerate(lirik):
+        for karakter in baris_lagu:
+            print(karakter, end='')
+            sys.stdout.flush()
+            time.sleep(delay_karakter)
+        time.sleep(delay[i])
+        print('')
+    print("// Code by DivzzOffc")
+
+
+jalanin_lirik()
