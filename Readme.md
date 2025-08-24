@@ -39,7 +39,7 @@ Welcome to my GitHub profile. I’m passionate about building web apps, games, a
 ## 📫 Contact
 
 - 🌐 Whatsapp: 628xxxx
-- 💬 Discord: `@divzz_neverlouse`
+- 💬 Instagram: `@divzz_neverlouse`
 - 📧 Email: `divzzxxx`
 
 ---
